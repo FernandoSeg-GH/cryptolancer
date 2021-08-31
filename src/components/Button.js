@@ -1,6 +1,8 @@
 import React from 'react'
 import  styled from 'styled-components'
 
+// Función creadora del botón generico, si modificas esto, afecta a todos los componentes usando la misma
+// Linea 17 empieza el estilado del componente
 function Button(props) {
     return (
         <ButtonWrapper>

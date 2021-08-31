@@ -79,6 +79,7 @@ function Job() {
 export default Job
 
 
+// ESTILADO
 const JobWrapper = styled.div`
     position: relative;
     width: 100vw;

@@ -6,44 +6,46 @@ import {ReactComponent as BackArrow} from '../assets/right-arrow.svg'
 import { Link } from 'react-router-dom'
 import {ReactComponent as Remote} from '../assets/remote.svg'
 
+// SECCIONES:
+// Lineas 16-51 => Función que devuelve un div compuesto por los componentes "JobItem" y "JobCard":
+// Lineas 56-98 => StyledComponents (css en JS), cada componente de esta página tiene su estilo  ahí
+// Lineas 101-128 => JOB ITEM Componente. Este componente envía "props" para ser uitlizado en el componente padre
+// Lineas 131-174 => StyledComponents para el JOB ITEM
+// Para ver el component Jobcard, cambiar carpeta a components/JobCard
 
 function BlockchainDev() {
     return (
         <>
-      
+            <JobDetails >
+                <Link to="/">
+                    <Back>
+                        <BackArrow style={{height:"15px"}}/>
+                    </Back>
+                </Link>
                 
-                <JobDetails >
-                    <Link to="/">
-                        <Back>
-                            <BackArrow style={{height:"15px"}}/>
-                        </Back>
-                    </Link>
-                    
-                    <JobItem
-                        itemTitleA="Blockchain Developer"
-                        itemTitleB="Solidity | Smart Contracts"
-                        jobDuration="Duration: 6 Months (possibility of extension)"
-                        jobTimezone="Timezone: EST"
-                        />
-                                            
-                    <JobCard
-                        li1="6 + años de experiencia en ingeniería DevOps, incluyendo la gestión de un equipo de ingenieros de soporte y DevOps."
-                        li2="Microsoft Certified Azure Solutions Architect, Microsoft Certified Azure DevOps Professional o CNCF Certified CKA preferido."
-                        li3="Amplio conocimiento y experiencia con tecnologías como Terraform, CloudFormation,ARM Templates, Github Actions, Azure DevOps, Jenkins, Helm y Bash/Python."
-                        li4="Experiencia en la construcción de pipelines CI/CD, automatizando infraestructuras y pipelines de entrega completos, junto con experiencia y conocimientos en despliegues."
-                        li5="Poseer experiencia significativa en la ejecución y gestión de despliegues de software automatizados.  "
-                        li6="Excelente comprensión de las metodologías/estándares de desarrollo de software, dominios de aplicaciones complejas, estrategias y procesos de construcción."
-                        li7="Amplios conocimientos sobre la nube y experiencia en la construcción y ejecución de la infraestructura de Azure/AWS."
-                        li8="Amplia experiencia con una variedad de herramientas DevOps, incluyendola construcción/automatización, la gestión de la configuración y la orquestación de contenedores."
-                        li9="Amplias y excelentes habilidades de cara al cliente. "
-                        li10="Astuto y apasionado por la ingeniería de soluciones digitales que resuelven problemas reales de negocio."
-                        li11="Debe estar dispuesto a aprender y absorber los rápidos cambios en la industria de la ingeniería de software."
-                        li12="Debe estar dispuesto a abordar todos los proyectos con un enfoque implacable en el  usuario final y el cliente."
-                        li13="Debe ser un jugador de equipo, y esto se demostrará mediante el establecimiento de  los miembros del equipo para el éxito."
+                <JobItem
+                    itemTitleA="Blockchain Developer"
+                    itemTitleB="Solidity | Smart Contracts"
+                    jobDuration="Duration: 6 Months (possibility of extension)"
+                    jobTimezone="Timezone: EST"
                     />
-                </JobDetails> 
-     
-       
+                                        
+                <JobCard
+                    li1="6 + años de experiencia en ingeniería DevOps, incluyendo la gestión de un equipo de ingenieros de soporte y DevOps."
+                    li2="Microsoft Certified Azure Solutions Architect, Microsoft Certified Azure DevOps Professional o CNCF Certified CKA preferido."
+                    li3="Amplio conocimiento y experiencia con tecnologías como Terraform, CloudFormation,ARM Templates, Github Actions, Azure DevOps, Jenkins, Helm y Bash/Python."
+                    li4="Experiencia en la construcción de pipelines CI/CD, automatizando infraestructuras y pipelines de entrega completos, junto con experiencia y conocimientos en despliegues."
+                    li5="Poseer experiencia significativa en la ejecución y gestión de despliegues de software automatizados.  "
+                    li6="Excelente comprensión de las metodologías/estándares de desarrollo de software, dominios de aplicaciones complejas, estrategias y procesos de construcción."
+                    li7="Amplios conocimientos sobre la nube y experiencia en la construcción y ejecución de la infraestructura de Azure/AWS."
+                    li8="Amplia experiencia con una variedad de herramientas DevOps, incluyendola construcción/automatización, la gestión de la configuración y la orquestación de contenedores."
+                    li9="Amplias y excelentes habilidades de cara al cliente. "
+                    li10="Astuto y apasionado por la ingeniería de soluciones digitales que resuelven problemas reales de negocio."
+                    li11="Debe estar dispuesto a aprender y absorber los rápidos cambios en la industria de la ingeniería de software."
+                    li12="Debe estar dispuesto a abordar todos los proyectos con un enfoque implacable en el  usuario final y el cliente."
+                    li13="Debe ser un jugador de equipo, y esto se demostrará mediante el establecimiento de  los miembros del equipo para el éxito."
+                />
+            </JobDetails> 
         </>
     )
 }

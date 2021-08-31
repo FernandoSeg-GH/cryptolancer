@@ -6,6 +6,8 @@ import slide_03 from '../assets/Slider/dwoorks-bg-3.png'
 import slide_04 from '../assets/Slider/dwoorks-bg-4.jpeg'
 import  styled from 'styled-components'
 
+//Este es el Slider
+//SOLO modificar las imagenes (lineas 17-20), importando los origenes debidamente
 class Deck extends Component {
     constructor(props) {
         super(props);

@@ -83,8 +83,8 @@ function Job(props) {
 export default Job
 
 
-const JobWrapper = styled.div`
-    
+// ESTILADO
+const JobWrapper = styled.div` 
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.1);
@@ -134,11 +134,9 @@ const InputWrapper = styled.div`
     border: none;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
     transition: 0.5s ease-out;
-    :hover input{
-        
+    :hover input{      
         background-color: orange;
         color: black;
         transition: 0.2s ease-out;

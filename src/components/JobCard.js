@@ -4,6 +4,9 @@ import  styled from 'styled-components'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
 
+// Función creadora de un Job Card, si modificas esto, afecta a todos los componentes usando la misma
+// Linea 96 empieza el estilado del componente
+
 function JobCard(props) {
     return (
         <motion.div

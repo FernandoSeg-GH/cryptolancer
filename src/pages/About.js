@@ -3,28 +3,29 @@ import  styled from 'styled-components'
 import { keyframes } from 'styled-components'
 import HubspotForm from 'react-hubspot-form'
 
+// SECCIÓN DE CONTACT Y ABOUT
 function About() {
     return (
-            <AboutWrapper id="about">
-                <AboutMain>
-                    <TitleSub>A recruiting agency for business innovation</TitleSub>
-                    <p style={{paddingBottom:"40px"}}>Contact us</p>
-                    <HubspotForm
-                        portalId='20639219'
-                        formId='728bedd4-3caf-4cb2-982a-862224540cc6'
-                        onSubmit={() => console.log('Submit!')}
-                        onReady={(form) => console.log('Form ready!')}
-                        loading={<div>Loading...</div>}
-                        />
-                </AboutMain>
-            </AboutWrapper>
+        <AboutWrapper id="about">
+            <AboutMain>
+                <TitleSub>A recruiting agency for business innovation</TitleSub>
+                <p style={{paddingBottom:"40px"}}>Contact us</p>
+                <HubspotForm
+                    portalId='20639219'
+                    formId='728bedd4-3caf-4cb2-982a-862224540cc6'
+                    onSubmit={() => console.log('Submit!')}
+                    onReady={(form) => console.log('Form ready!')}
+                    loading={<div>Loading...</div>}
+                    />
+            </AboutMain>
+        </AboutWrapper>
     )
 }
 
 export default About
 
 
-
+// ESTILADO
 const breatheAnimation = keyframes`
      from {
         transform: translate3d(0,40px,0)

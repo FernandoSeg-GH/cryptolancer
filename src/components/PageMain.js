@@ -1,6 +1,7 @@
 import React from 'react'
 import  styled from 'styled-components'
 
+//Función creadora del Page Main, si modificas esto, afecta a todos los componentes usando la misma
 function PageMain(props) {
     return (
         <PageMainWrapper>
@@ -14,7 +15,7 @@ function PageMain(props) {
 export default PageMain
 
 
-
+// Empieza el estilado del componente
 const PageMainWrapper = styled.div`
     width: auto;
     display: flex;

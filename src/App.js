@@ -11,6 +11,10 @@ import Navbar from './components/Navbar';
 import BlockchainDev from './jobs/BlockchainDev';
 import Apply from './pages/Apply';
 
+
+// De querer crear una página nueva, hay que incluirla en este wrapper de la applicación
+// React-Router-Dom lo que hace es ir "empujando" los componentes del DOM a la pantalla del brower
+// Cualquier ID (de usar AUTH/Registros) se debe implementar acá para que afecte todos los elementos hijos
 function App() {
   return (
     <div className="appWrapper">

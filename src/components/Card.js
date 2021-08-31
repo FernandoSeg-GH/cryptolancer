@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Este es el Slide unitario del Slider
+// NO MODIFICAR - Para cambiar las imanges del Slider, ir al componente DECK
 function Card(props) {
     return (
         <div style={styles.card} id={props.id}>

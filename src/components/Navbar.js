@@ -8,8 +8,9 @@ import {ReactComponent as Instagram} from '../assets/instagram.svg'
 import {ReactComponent as Facebook} from '../assets/facebook.svg'
 import {ReactComponent as LinkedIn} from '../assets/linkedin.svg'
 import {HashLink as Link} from 'react-router-hash-link'
-import './ZoomImg.css'
 
+// El menu desplegable empieza en la linea 50 (links)
+// A partir de la linea 113 empieza el estilado
 function Navbar() {
     const [menuStatus, setMenuStatus] = useState(false)
     const [navBackground, setNavBackground] = useState('navStill')

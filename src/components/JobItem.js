@@ -2,6 +2,8 @@ import React from 'react'
 import  styled from 'styled-components'
 import {ReactComponent as Remote} from '../assets/remote.svg'
 
+// Lineas 7-36 => Función creadora de un Job Card, si modificas esto, afecta a todos los componentes usando la misma
+// Linea 93 empieza el estilado del componente
 function JobItem(props) {
     return (
         <JobItemWrapper>

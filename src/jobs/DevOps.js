@@ -6,6 +6,13 @@ import { Link } from 'react-router-dom'
 import {ReactComponent as BackArrow} from '../assets/right-arrow.svg'
 import {ReactComponent as Remote} from '../assets/remote.svg'
 
+// SECCIONES:
+// Lineas 17-52 => Función que devuelve un div compuesto por los componentes "JobItem" y "JobCard":
+// Lineas 55-97 => StyledComponents (css en JS), cada componente de esta página tiene su estilo  ahí
+// Lineas 99-126 => JOB ITEM Componente. Este componente envía "props" para ser uitlizado en el componente padre
+// Lineas 131-180 => StyledComponents para el JOB ITEM
+// Para ver el component Jobcard, cambiar carpeta a components/JobCard
+
 function DevOps() {
     return (
         <JobDetails>
@@ -167,5 +174,4 @@ const JobItemContent = styled.p`
     @media (max-width: 1023px) {
 
   }
-
 `;

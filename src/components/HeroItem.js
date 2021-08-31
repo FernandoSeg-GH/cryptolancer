@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+// Modificar Estlilado únicamente (a partir de la linea 20)
 function HeroItem(props) {
     return (
         <Section>

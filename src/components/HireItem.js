@@ -2,6 +2,8 @@ import React from 'react'
 import  styled from 'styled-components'
 import {ReactComponent as Remote} from '../assets/remote.svg'
 
+// Lineas 7-38 => Función creadora del Hire Item, si modificas esto, afecta a todos los componentes usando la misma
+// Linea 41 => Empieza el estilado del componente
 function HireItem(props) {
     return (
         <HireItemWrapper>

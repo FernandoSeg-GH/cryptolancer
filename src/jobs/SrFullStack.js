@@ -1,12 +1,18 @@
 import React from 'react'
 import  styled from 'styled-components'
-//import JobItem from '../components/JobItem'
 import {ReactComponent as BackArrow} from '../assets/right-arrow.svg'
 import { Link } from 'react-router-dom'
 //import {motion} from 'framer-motion'
 //import {ReactComponent as BP} from '../assets/bullet.svg'
 import {ReactComponent as Remote} from '../assets/remote.svg'
 import JobCard from '../components/JobCard'
+
+// SECCIONES:
+// Lineas 15-45 => Función que devuelve un div compuesto por los componentes "JobItem" y "JobCard":
+// Lineas 56-98 => StyledComponents (css en JS), cada componente de esta página tiene su estilo  ahí
+// Lineas 100-127 => JOB ITEM Componente. Este componente envía "props" para ser uitlizado en el componente padre
+// Lineas 131-181 => StyledComponents para el JOB ITEM
+// Para ver el component Jobcard, cambiar carpeta a components/JobCard
 
 function SrFullStack() {
     return (

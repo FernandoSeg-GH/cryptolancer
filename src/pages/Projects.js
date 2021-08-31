@@ -19,17 +19,15 @@ function Projects() {
 export default Projects
 
 
+// ESTILADO
 const ProjectsWrapper = styled.div`
     position: relative;
     width: 100vw;
     height: 100vh;
-  
-
     @media (max-width: 1023px) {
         height: 100vh;
     }
 `;
-
 
 const ProjectsBlock = styled.div`
     z-index: 1;
@@ -47,7 +45,6 @@ const ProjectsBlock = styled.div`
     }
 `;
 
-
 const PageMainSub = styled.h2`
     font-family: 'NeueMontreal-Regular';
     font-size: 36px;
@@ -56,8 +53,7 @@ const PageMainSub = styled.h2`
     @media (max-width: 1023px) {
         width: 90%;
         padding: 0;
-  
-  }
+    }
 `;
 
 const PageMainContent = styled.p`
@@ -68,8 +64,6 @@ const PageMainContent = styled.p`
     position: relative;
     @media (max-width: 1023px) {
         font-size: 20px;
-        width: 100%;
-        
-  }
-    
+        width: 100%;     
+    }
 `;

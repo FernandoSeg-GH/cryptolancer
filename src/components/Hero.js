@@ -7,6 +7,8 @@ import background2 from '../assets/Slider/dwoorks-bg-2.jpeg'
 import background3 from '../assets/Slider/dwoorks-bg-3.jpeg'
 import {HashLink as Link} from 'react-router-hash-link'
 
+// Lineas 12-68 => Código para el componente HERO
+// Para cambiar las imagenes de fondo, ir a linea 32/44/56 e importar los archivos correspondientes
 function Hero(props) {
     return (
         <Main id="hero">
