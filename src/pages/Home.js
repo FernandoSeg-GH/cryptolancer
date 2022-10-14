@@ -32,8 +32,8 @@ function Home() {
             <AppWrapper>
                     <Hero
                         titleSub="Work From Everywhere"
-                        titleMain="The Future is Now."
-                        titleContent="We encourage decentralization of the economy by connecting Developers with decentralized organizational cultures."
+                        titleMain="Making the Bridge"
+                        titleContent="We encourage decentralization of the economy by connecting software engineers with web3 based projects."
                         sectionSub="Work hard. Inspire your partners."
                         sectionMain1="Brand new products "
                         sectionMain2="with cutting edge technology."

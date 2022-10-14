@@ -17,10 +17,10 @@ function Job() {
                         <div>
                             <JobSection>
                                 <JobItem
-                                    itemTitleA="Blockchain Developer"
-                                    itemTitleB="Solidity | Smart Contracts"
+                                    itemTitleA="Frontend Tech Lead"
+                                    itemTitleB="React | Next"
                                     jobDuration="Duration: 6 Months (possibility of extension)"
-                                    jobTimezone="Timezone: EST"/>
+                                    jobTimezone="Timezone: ARG"/>
                                 <Link to="/BlockchainDev">
                                     <ButtonWrapper >
                                         More
@@ -60,7 +60,7 @@ function Job() {
                             <JobSection>
                                 <JobItem
                                     itemTitleA="Technical Lead"
-                                    itemTitleB="Angular | GraphQL"
+                                    itemTitleB="React.js | Next.js"
                                     jobDuration="Duration: 6 Months (possibility of extension)"
                                     jobTimezone="Timezone: EST"/>
                                 <Link to="/TechLead">

@@ -24,22 +24,19 @@ function BlockchainDev() {
                 </Link>
                 
                 <JobItem
-                    itemTitleA="Blockchain Developer"
-                    itemTitleB="Solidity | Smart Contracts"
-                    jobDuration="Duration: 6 Months (possibility of extension)"
-                    jobTimezone="Timezone: EST"
+                    itemTitleA="Frontend Tech Lead"
+                    itemTitleB="React | Nextjs"
+                    jobDuration="Duration: undefinied"
+                    jobTimezone="Timezone: GMT-3 (Arg)"
                     />
                                         
                 <JobCard
-                    li1="6 + años de experiencia en ingeniería DevOps, incluyendo la gestión de un equipo de ingenieros de soporte y DevOps."
-                    li2="Microsoft Certified Azure Solutions Architect, Microsoft Certified Azure DevOps Professional o CNCF Certified CKA preferido."
-                    li3="Amplio conocimiento y experiencia con tecnologías como Terraform, CloudFormation,ARM Templates, Github Actions, Azure DevOps, Jenkins, Helm y Bash/Python."
+                    li1="6 + años de experiencia en roles de programación, incluyendo el liderazgo técnico sobre prácricas en frontend."
+                    li2="4 + años de experiencia trabajando con React (Js o Typescript), de los cuales al menos uno hayas trabajado en Nextjs"
+                    li3="Amplio conocimiento y experiencia con entornos serverless, así como conocimientos de Dynamo y AWS"
                     li4="Experiencia en la construcción de pipelines CI/CD, automatizando infraestructuras y pipelines de entrega completos, junto con experiencia y conocimientos en despliegues."
-                    li5="Poseer experiencia significativa en la ejecución y gestión de despliegues de software automatizados.  "
-                    li6="Excelente comprensión de las metodologías/estándares de desarrollo de software, dominios de aplicaciones complejas, estrategias y procesos de construcción."
-                    li7="Amplios conocimientos sobre la nube y experiencia en la construcción y ejecución de la infraestructura de Azure/AWS."
-                    li8="Amplia experiencia con una variedad de herramientas DevOps, incluyendola construcción/automatización, la gestión de la configuración y la orquestación de contenedores."
-                    li9="Amplias y excelentes habilidades de cara al cliente. "
+                    li5="Excelente comprensión de las metodologías/estándares de desarrollo de software, dominios de aplicaciones complejas, estrategias y procesos de construcción."
+                    li6="Amplia experiencia con una variedad de herramientas DevOps, incluyendola construcción/automatización, la gestión de la configuración y la orquestación de contenedores."
                     li10="Astuto y apasionado por la ingeniería de soluciones digitales que resuelven problemas reales de negocio."
                     li11="Debe estar dispuesto a aprender y absorber los rápidos cambios en la industria de la ingeniería de software."
                     li12="Debe estar dispuesto a abordar todos los proyectos con un enfoque implacable en el  usuario final y el cliente."

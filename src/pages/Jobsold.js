@@ -22,11 +22,11 @@ function Job(props) {
                     <JobItemsWrapper>
                         <div>
                             <JobItem
-                                itemTitleA="Blockchain Developer"
-                                itemTitleB="Solidity | Smart Contracts"
-                                jobStatus="Status: Contract/Full-Time (Urgent)"
-                                jobDuration="Duration: 6 Months (possibility of extension)"
-                                jobTimezone="Timezone: EST"/>
+                                itemTitleA="Frontend Tech Lead"
+                                itemTitleB="React | Nextjs"
+                                jobStatus="Status: Contract/Full-Time"
+                                jobDuration="Duration: to be defined"
+                                jobTimezone="Timezone: to be defined"/>
                             <InputWrapper onclick={onClick} style={{marginLeft:"60px"}}>
                                 <input type="submit" value="More" onClick={onClick} 
                                     style={{backgroundColor:"gray", height:"50px", width:"300px", color:"white", opacity:"0.8", fontSize:"20px", fontFamily:"NeueMontreal-Bold", border:"none", display:"flex", alignItems:"center", justifyContent:"center", cursor:"pointer"}}/>
